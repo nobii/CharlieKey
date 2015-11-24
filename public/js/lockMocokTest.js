@@ -13,7 +13,7 @@ CharlieKey.prototype.registerKeyCode = function (keyCode) {
 };
 
 CharlieKey.prototype.inputKeyCode = function (keyCode) {
-    if (this._keyCode == keyCode) {
+    if (this._keyCode === keyCode) {
         this._keyCode = undefined;
     }
 };
