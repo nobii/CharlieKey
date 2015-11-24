@@ -1,13 +1,13 @@
-name: hinagata-gulp
+name: lock-mocok
 
 url:
-  http://hinagata-gulp/
+  http://lock-mocok/
 
 repository:
-  git://github.com/nobii/hinagata-gulp.git
+  git://github.com/nobii/lock-mocok.git
 
 site_name:
-  hinagata-gulp
+  lock-mocok
 
 description:
   The best project ever.
@@ -15,7 +15,7 @@ description:
 keywords: []
 
 share_text:
-  hinagata-gulp
+  lock-mocok
 
 share_hashtags: ''
 

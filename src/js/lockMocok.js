@@ -1,3 +1,3 @@
-var hinagataGulp = {
+var lockMocok = {
     bf: new BrowserFeature()
 };

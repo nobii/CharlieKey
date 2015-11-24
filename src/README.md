@@ -1,4 +1,4 @@
-# hinagata-gulp
+# lock-mocok
 
 ## install dependencies
 

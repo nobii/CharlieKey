@@ -15,7 +15,7 @@ util = require './lib/task-util'
 # ========================================= #
 # const
 # ========================================= #
-PROJ_NAME = 'hinagata-gulp'
+PROJ_NAME = 'lock-mocok'
 
 SRC = '.'
 SRC_SCSS = "#{SRC}/scss"
@@ -64,7 +64,7 @@ gulp.task 'copy-lib', ->
     gulp.src(config.js_lib).pipe(gulp.dest(DEST_JS_LIB))
 
 gulp.task 'compile-js', ->
-    gulp.src("#{SRC_JS}/hinagataGulp*.js")
+    gulp.src("#{SRC_JS}/lockMocok*.js")
         .pipe(varline(util.readConfig([
             "#{SRC_CONFIG}/varline.yaml",
             {
